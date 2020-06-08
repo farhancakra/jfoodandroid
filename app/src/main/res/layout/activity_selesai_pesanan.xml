@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".SelesaiPesananActivity"
+    android:paddingRight="50dp"
+    android:paddingLeft="50dp"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    >
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:ems="10" android:text="ID Invoice:" android:id="@+id/staticIdInvoice"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:ems="10" android:text="Nama Customer:" android:id="@+id/staticNamaCustomer"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Nama Makanan:" android:id="@+id/staticNamaMakanan"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Tanggal Pesan:" android:id="@+id/staticTanggalPesan"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Total Biaya:" android:id="@+id/staticTotalBiaya"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Status Invoice:" android:id="@+id/staticStatusInvoice"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Tipe Invoice:" android:id="@+id/staticTipePayment"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Promo Code:" android:id="@+id/staticPromoCode"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="Biaya Delivery:" android:id="@+id/staticDeliveryFee"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:orientation="vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:ems="10" android:text="TextView" android:id="@+id/idInvoice"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:ems="10" android:text="TextView" android:id="@+id/namaCustomer"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/namaMakanan"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/tanggalPesan"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/totalBiaya"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/statusInvoice"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/tipePayment"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/promoCode"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:paddingBottom="10dp" android:text="TextView" android:id="@+id/deliveryfee"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Batal" android:id="@+id/batal"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Selesai" android:id="@+id/selesai"/>
+
+</LinearLayout>
+
+</LinearLayout>
